@@ -6,10 +6,10 @@
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
     <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
-    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="Window size (pixels)" updates="None" val="[1280, 800]" valType="code"/>
     <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
-    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Experiment info" updates="None" val="{u'session': u'001', u'participant': u''}" valType="code"/>
     <Param name="Save csv file" updates="None" val="False" valType="bool"/>
     <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
     <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
@@ -18,7 +18,7 @@
     <Param name="logging level" updates="None" val="exp" valType="code"/>
     <Param name="blendMode" updates="None" val="avg" valType="str"/>
     <Param name="Save excel file" updates="None" val="False" valType="bool"/>
-    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Units" updates="None" val="deg" valType="str"/>
     <Param name="Use version" updates="None" val="" valType="str"/>
     <Param name="Save log file" updates="None" val="True" valType="bool"/>
     <Param name="Screen" updates="None" val="1" valType="num"/>
@@ -154,7 +154,7 @@
       <CodeComponent name="RandomPicControl">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="RandomPicControl" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="from psychopy import visual, core&amp;#10;from PIL import Image&amp;#10;import numpy as np&amp;#10;import glob, os, random, copy, time&amp;#10;&amp;#10;f1 = Image.open('./SolidRedPic.png', 'r')&amp;#10;visual.ImageStim(win, f1).draw()&amp;#10;win.flip()&amp;#10;#core.wait(2.0)&amp;#10;&amp;#10;randomNumber = randint(0,4)&amp;#10;if randomNumber==0:&amp;#10;    #f1 = Image.open('./EastPic.png', 'r')&amp;#10;    #visual.ImageStim(win, f1).draw()&amp;#10;    #win.flip()&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.01,-0.4), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;elif randomNumber==1:&amp;#10;    #f1 = Image.open('./WestPic.png', 'r')&amp;#10;    #visual.ImageStim(win, f1).draw()&amp;#10;    #win.flip()&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.01,0.4), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;elif randomNumber==2:&amp;#10;    #f1 = Image.open('./NorthPic.png', 'r')&amp;#10;    #visual.ImageStim(win, f1).draw()&amp;#10;    #win.flip()&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.4,0.01), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;else:&amp;#10;    #f1 = Image.open('./SouthPic.png', 'r')&amp;#10;    #visual.ImageStim(win, f1).draw()&amp;#10;    #win.flip()&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(-0.4,0.01), ori=1, shape='square')&amp;#10;    core.wait(2.0)" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="from psychopy import visual, core&amp;#10;from PIL import Image&amp;#10;import numpy as np&amp;#10;import glob, os, random, copy, time&amp;#10;&amp;#10;f1 = Image.open('./SolidRedPic.png', 'r')&amp;#10;visual.ImageStim(win, f1).draw()&amp;#10;win.flip()&amp;#10;#core.wait(2.0)&amp;#10;&amp;#10;randomNumber = randint(0,4)&amp;#10;if randomNumber==0:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.01,-0.4), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;elif randomNumber==1:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.01,0.4), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;elif randomNumber==2:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.4,0.01), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;else:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(-0.4,0.01), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;aperture.enable = False" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>

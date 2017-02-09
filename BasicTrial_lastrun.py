@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.84.2),
-    on Thu Feb  9 12:20:43 2017
+    on Thu Feb  9 12:31:17 2017
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -26,8 +26,8 @@ _thisDir = os.path.dirname(os.path.abspath(__file__)).decode(sys.getfilesystemen
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'BasicTrial'  # from the Builder filename that created this script
-expInfo = {'participant':'', 'session':'001'}
+expName = u'BasicTrial'  # from the Builder filename that created this script
+expInfo = {u'session': u'001', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
@@ -54,9 +54,10 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Setup the Window
 win = visual.Window(
     size=(1280, 800), fullscr=True, screen=0,
-    allowGUI=False, allowStencil=False,
-    monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
-    blendMode='avg', useFBO=True)
+    allowGUI=False, allowStencil=True,
+    monitor=u'testMonitor', color=[0,0,0], colorSpace='rgb',
+    blendMode='avg', useFBO=True,
+    units='deg')
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -73,6 +74,10 @@ BlankPic = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
+aperture = visual.Aperture(
+    win=win, name='aperture',
+    units='deg', size=2, pos=(0, 0))
+aperture.disable()  # disable until its actually used
 
 # Initialize components for Routine "Focal"
 FocalClock = core.Clock()
@@ -123,7 +128,7 @@ for thisTrial in trials:
     routineTimer.add(1.000000)
     # update component parameters for each repeat
     # keep track of which components have finished
-    BlankWaitComponents = [BlankPic]
+    BlankWaitComponents = [BlankPic, aperture]
     for thisComponent in BlankWaitComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -144,6 +149,16 @@ for thisTrial in trials:
         frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
         if BlankPic.status == STARTED and t >= frameRemains:
             BlankPic.setAutoDraw(False)
+        
+        # *aperture* updates
+        if t >= 0.0 and aperture.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            aperture.tStart = t
+            aperture.frameNStart = frameN  # exact frame index
+            aperture.enabled = True
+        frameRemains = 0.0 + 0.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+        if aperture.status == STARTED and t >= frameRemains:
+            aperture.enabled = False
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -166,6 +181,7 @@ for thisTrial in trials:
     for thisComponent in BlankWaitComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    aperture.enabled = False  # just in case it was left enabled
     
     # ------Prepare to start Routine "Focal"-------
     t = 0
