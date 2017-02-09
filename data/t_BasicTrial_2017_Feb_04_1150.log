@@ -1,0 +1,44 @@
+13.4116 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x112886c10>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.4116 	EXP 	window1: recordFrameIntervals = False
+13.5768 	EXP 	window1: recordFrameIntervals = True
+13.7605 	EXP 	window1: recordFrameIntervals = False
+13.8738 	EXP 	Created BlankPic = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=u'./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='BlankPic', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+13.8831 	EXP 	Created RewardImage = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./RewardPic.jpg', interpolate=True, mask=None, maskParams=None, name='RewardImage', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+13.8836 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+13.8840 	EXP 	New trial (rep=0, index=0): None
+13.9114 	EXP 	BlankPic: autoDraw = True
+14.3523 	DATA 	Mouse: wheel shift=(0,0), pos=(642,1)
+14.3859 	DATA 	Mouse: wheel shift=(0,0), pos=(642,1)
+14.8775 	WARNING 	Monitor specification not found. Creating a temporary one...
+15.2157 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1128a1f50>, name='window1', pos=[440, 200], screen=0, size=array([400, 400]), stereo=False, units='norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.2292 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=0, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+15.2308 	EXP 	unnamed Aperture: enabled = False
+16.4540 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 3.2,  2.4]), texRes=128, units='norm', win=Window(...))
+19.4639 	EXP 	New trial (rep=1, index=0): None
+20.4636 	WARNING 	Monitor specification not found. Creating a temporary one...
+20.9801 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.9811 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1119a7890>, name='window1', pos=[440, 200], screen=0, size=array([400, 400]), stereo=False, units='norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.9813 	EXP 	window1: mouseVisible = True
+21.2640 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=0, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+21.2747 	WARNING 	t of last frame was 294.84ms (=1/3)
+21.2747 	EXP 	unnamed Aperture: enabled = False
+23.2226 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 3.2,  2.4]), texRes=128, units='norm', win=Window(...))
+23.2293 	WARNING 	t of last frame was 1954.57ms (=1/0)
+25.2358 	WARNING 	t of last frame was 2006.49ms (=1/0)
+26.2322 	EXP 	New trial (rep=2, index=0): None
+27.2389 	WARNING 	Monitor specification not found. Creating a temporary one...
+27.7390 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+27.7400 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1119b7c90>, name='window1', pos=[440, 200], screen=0, size=array([400, 400]), stereo=False, units='norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+27.7402 	EXP 	window1: mouseVisible = True
+27.7639 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=0, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+27.7729 	WARNING 	t of last frame was 34.18ms (=1/29)
+27.7729 	EXP 	unnamed Aperture: enabled = False
+29.2967 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 3.2,  2.4]), texRes=128, units='norm', win=Window(...))
+29.3036 	WARNING 	t of last frame was 1530.68ms (=1/0)
+31.1065 	DATA 	Keypress: escape

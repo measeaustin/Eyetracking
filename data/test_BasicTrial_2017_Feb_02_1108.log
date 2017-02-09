@@ -1,0 +1,70 @@
+12.6324 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1109ad3d0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.6325 	EXP 	window1: recordFrameIntervals = False
+12.8160 	EXP 	window1: recordFrameIntervals = True
+13.0007 	EXP 	window1: recordFrameIntervals = False
+13.1004 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=u'./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='deg', win=Window(...))
+13.1218 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=u'./FocalPic.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units='deg', win=Window(...))
+13.1223 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+13.1229 	EXP 	New trial (rep=0, index=0): None
+13.1451 	EXP 	image: autoDraw = True
+13.1451 	EXP 	image_2: autoDraw = True
+14.1257 	EXP 	New trial (rep=1, index=0): None
+14.1418 	EXP 	image: autoDraw = False
+14.1418 	EXP 	image_2: autoDraw = False
+14.1418 	EXP 	image: autoDraw = True
+14.1418 	EXP 	image_2: autoDraw = True
+15.1263 	EXP 	New trial (rep=2, index=0): None
+15.1424 	EXP 	image: autoDraw = False
+15.1424 	EXP 	image_2: autoDraw = False
+15.1424 	EXP 	image: autoDraw = True
+15.1424 	EXP 	image_2: autoDraw = True
+16.1268 	EXP 	New trial (rep=3, index=0): None
+16.1429 	EXP 	image: autoDraw = False
+16.1429 	EXP 	image_2: autoDraw = False
+16.1429 	EXP 	image: autoDraw = True
+16.1429 	EXP 	image_2: autoDraw = True
+17.1292 	EXP 	New trial (rep=4, index=0): None
+17.1452 	EXP 	image: autoDraw = False
+17.1452 	EXP 	image_2: autoDraw = False
+17.1452 	EXP 	image: autoDraw = True
+17.1452 	EXP 	image_2: autoDraw = True
+18.1345 	EXP 	window1: mouseVisible = True
+11.3435 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1113ec3d0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.3436 	EXP 	window1: recordFrameIntervals = False
+11.5118 	EXP 	window1: recordFrameIntervals = True
+11.6962 	EXP 	window1: recordFrameIntervals = False
+11.7977 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=u'./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 60.,  60.]), texRes=128, units='deg', win=Window(...))
+11.8185 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=u'./FocalPic.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units='deg', win=Window(...))
+11.8190 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+11.8194 	EXP 	New trial (rep=0, index=0): None
+11.8612 	EXP 	image: autoDraw = True
+11.8612 	EXP 	image_2: autoDraw = True
+12.8097 	EXP 	New trial (rep=1, index=0): None
+12.8255 	EXP 	image: autoDraw = False
+12.8255 	EXP 	image_2: autoDraw = False
+12.8255 	EXP 	image: autoDraw = False
+12.8255 	EXP 	image_2: autoDraw = False
+12.8255 	EXP 	image: autoDraw = True
+12.8255 	EXP 	image_2: autoDraw = True
+13.8108 	EXP 	New trial (rep=2, index=0): None
+13.8260 	EXP 	image: autoDraw = False
+13.8260 	EXP 	image_2: autoDraw = False
+13.8260 	EXP 	image: autoDraw = False
+13.8260 	EXP 	image_2: autoDraw = False
+13.8260 	EXP 	image: autoDraw = True
+13.8260 	EXP 	image_2: autoDraw = True
+14.8114 	EXP 	New trial (rep=3, index=0): None
+14.8265 	EXP 	image: autoDraw = False
+14.8265 	EXP 	image_2: autoDraw = False
+14.8265 	EXP 	image: autoDraw = False
+14.8265 	EXP 	image_2: autoDraw = False
+14.8265 	EXP 	image: autoDraw = True
+14.8265 	EXP 	image_2: autoDraw = True
+15.8112 	EXP 	New trial (rep=4, index=0): None
+15.8271 	EXP 	image: autoDraw = False
+15.8271 	EXP 	image_2: autoDraw = False
+15.8271 	EXP 	image: autoDraw = False
+15.8271 	EXP 	image_2: autoDraw = False
+15.8271 	EXP 	image: autoDraw = True
+15.8271 	EXP 	image_2: autoDraw = True
+16.5964 	DATA 	Keypress: escape

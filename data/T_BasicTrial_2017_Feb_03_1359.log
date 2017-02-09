@@ -1,0 +1,70 @@
+11.5554 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x110a38bd0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.5555 	EXP 	window1: recordFrameIntervals = False
+11.7208 	EXP 	window1: recordFrameIntervals = True
+11.9047 	EXP 	window1: recordFrameIntervals = False
+12.0270 	EXP 	Created BlankPic = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='BlankPic', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.0491 	EXP 	Created FocalPic = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./FocalPic.png', interpolate=True, mask=None, maskParams=None, name='FocalPic', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.0732 	EXP 	Created East = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='./EastPic.png', interpolate=True, mask=None, maskParams=None, name='East', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.0943 	EXP 	Created West = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='./WestPic.png', interpolate=True, mask=None, maskParams=None, name='West', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.1157 	EXP 	Created North = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='./NorthPic.png', interpolate=True, mask=None, maskParams=None, name='North', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.1388 	EXP 	Created South = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='./SouthPic.png', interpolate=True, mask=None, maskParams=None, name='South', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.1469 	EXP 	Created RewardImage = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./RewardPic.jpg', interpolate=True, mask=None, maskParams=None, name='RewardImage', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+12.1474 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+12.1478 	EXP 	New trial (rep=0, index=0): None
+12.1724 	EXP 	BlankPic: autoDraw = True
+13.1550 	EXP 	BlankPic: autoDraw = False
+13.1550 	EXP 	BlankPic: autoDraw = False
+13.1550 	EXP 	FocalPic: autoDraw = True
+15.1401 	WARNING 	Monitor specification not found. Creating a temporary one...
+15.4659 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x119957250>, name='window1', pos=[240, 100], screen=0, size=array([800, 600]), stereo=False, units=u'norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.4900 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.6,  1.6]), texRes=128, units=u'norm', win=Window(...))
+15.5061 	EXP 	FocalPic: autoDraw = False
+15.5061 	EXP 	FocalPic: autoDraw = False
+15.5061 	EXP 	East: autoDraw = True
+15.5061 	EXP 	West: autoDraw = True
+15.5061 	EXP 	North: autoDraw = True
+15.5061 	EXP 	South: autoDraw = True
+16.1564 	EXP 	East: autoDraw = False
+16.1564 	EXP 	West: autoDraw = False
+16.1564 	EXP 	North: autoDraw = False
+16.1564 	EXP 	South: autoDraw = False
+16.1564 	EXP 	East: autoDraw = False
+16.1564 	EXP 	West: autoDraw = False
+16.1564 	EXP 	North: autoDraw = False
+16.1564 	EXP 	South: autoDraw = False
+16.1564 	EXP 	RewardImage: autoDraw = True
+17.1410 	EXP 	New trial (rep=1, index=0): None
+17.1564 	EXP 	RewardImage: autoDraw = False
+17.1564 	EXP 	RewardImage: autoDraw = False
+17.1564 	EXP 	BlankPic: autoDraw = True
+18.1576 	EXP 	BlankPic: autoDraw = False
+18.1576 	EXP 	BlankPic: autoDraw = False
+18.1576 	EXP 	FocalPic: autoDraw = True
+20.1429 	WARNING 	Monitor specification not found. Creating a temporary one...
+20.4607 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x111d9f0d0>, name='window1', pos=[240, 100], screen=0, size=array([800, 600]), stereo=False, units=u'norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.4609 	EXP 	window1: mouseVisible = True
+20.7583 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.6,  1.6]), texRes=128, units=u'norm', win=Window(...))
+20.7755 	EXP 	FocalPic: autoDraw = False
+20.7755 	EXP 	FocalPic: autoDraw = False
+20.7755 	EXP 	East: autoDraw = True
+20.7755 	EXP 	West: autoDraw = True
+20.7755 	EXP 	North: autoDraw = True
+20.7755 	EXP 	South: autoDraw = True
+21.1591 	EXP 	East: autoDraw = False
+21.1591 	EXP 	West: autoDraw = False
+21.1591 	EXP 	North: autoDraw = False
+21.1591 	EXP 	South: autoDraw = False
+21.1591 	EXP 	East: autoDraw = False
+21.1591 	EXP 	West: autoDraw = False
+21.1591 	EXP 	North: autoDraw = False
+21.1591 	EXP 	South: autoDraw = False
+21.1591 	EXP 	RewardImage: autoDraw = True
+22.1442 	EXP 	New trial (rep=2, index=0): None
+22.1596 	EXP 	RewardImage: autoDraw = False
+22.1596 	EXP 	RewardImage: autoDraw = False
+22.1596 	EXP 	BlankPic: autoDraw = True
+23.2274 	DATA 	Keypress: space
+23.2609 	EXP 	BlankPic: autoDraw = False
+23.2609 	EXP 	FocalPic: autoDraw = True
+23.4129 	DATA 	Keypress: escape
+23.5414 	EXP 	window1: mouseVisible = True

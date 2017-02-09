@@ -1,0 +1,28 @@
+15.0733 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1109afc10>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.0734 	EXP 	window1: recordFrameIntervals = False
+15.2389 	EXP 	window1: recordFrameIntervals = True
+15.4557 	EXP 	window1: recordFrameIntervals = False
+15.6265 	EXP 	Created BlankPic = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='BlankPic', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+15.6348 	EXP 	Created RewardImage = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./RewardPic.jpg', interpolate=True, mask=None, maskParams=None, name='RewardImage', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+15.6353 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+15.6359 	EXP 	New trial (rep=0, index=0): None
+15.6556 	EXP 	BlankPic: autoDraw = True
+16.6649 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+16.6894 	EXP 	BlankPic: autoDraw = False
+18.4662 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+18.4964 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+20.5415 	EXP 	RewardImage: autoDraw = True
+21.5263 	EXP 	New trial (rep=1, index=0): None
+21.5421 	EXP 	RewardImage: autoDraw = False
+21.5421 	EXP 	RewardImage: autoDraw = False
+21.5421 	EXP 	BlankPic: autoDraw = True
+22.5504 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+22.5762 	EXP 	BlankPic: autoDraw = False
+22.5762 	EXP 	BlankPic: autoDraw = False
+23.9353 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+23.9607 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+25.9938 	EXP 	RewardImage: autoDraw = True
+26.9788 	EXP 	New trial (rep=2, index=0): None
+26.9961 	EXP 	RewardImage: autoDraw = False
+26.9961 	EXP 	BlankPic: autoDraw = True
+27.3645 	DATA 	Keypress: escape

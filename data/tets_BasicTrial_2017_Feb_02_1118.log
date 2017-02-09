@@ -1,0 +1,60 @@
+13.5218 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1125ed3d0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5218 	EXP 	window1: recordFrameIntervals = False
+13.6879 	EXP 	window1: recordFrameIntervals = True
+13.8722 	EXP 	window1: recordFrameIntervals = False
+14.0086 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=u'./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 60.,  60.]), texRes=128, units='deg', win=Window(...))
+14.0431 	EXP 	Created aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='aperture', ori=0, pos=(-12, 12), shape=UNKNOWN, size=1, units='deg', win=Window(...))
+14.0760 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=u'./FocalPic.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units='deg', win=Window(...))
+14.0764 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+14.0768 	EXP 	New trial (rep=0, index=0): None
+14.1029 	EXP 	aperture: enabled = False
+14.1029 	EXP 	image: autoDraw = True
+14.1029 	EXP 	aperture: enabled = True
+14.1029 	EXP 	image_2: autoDraw = True
+15.0689 	EXP 	New trial (rep=1, index=0): None
+15.0847 	EXP 	image: autoDraw = False
+15.0847 	EXP 	aperture: enabled = False
+15.0847 	EXP 	image_2: autoDraw = False
+15.0847 	EXP 	image: autoDraw = False
+15.0847 	EXP 	aperture: autoDraw = False
+15.0847 	EXP 	image_2: autoDraw = False
+15.0847 	EXP 	aperture: enabled = False
+15.0847 	EXP 	image: autoDraw = True
+15.0847 	EXP 	aperture: enabled = True
+15.0847 	EXP 	image_2: autoDraw = True
+16.0694 	EXP 	New trial (rep=2, index=0): None
+16.0852 	EXP 	image: autoDraw = False
+16.0852 	EXP 	aperture: enabled = False
+16.0852 	EXP 	image_2: autoDraw = False
+16.0852 	EXP 	image: autoDraw = False
+16.0852 	EXP 	aperture: autoDraw = False
+16.0852 	EXP 	image_2: autoDraw = False
+16.0852 	EXP 	aperture: enabled = False
+16.0852 	EXP 	image: autoDraw = True
+16.0852 	EXP 	aperture: enabled = True
+16.0852 	EXP 	image_2: autoDraw = True
+17.0699 	EXP 	New trial (rep=3, index=0): None
+17.0857 	EXP 	image: autoDraw = False
+17.0857 	EXP 	aperture: enabled = False
+17.0857 	EXP 	image_2: autoDraw = False
+17.0857 	EXP 	image: autoDraw = False
+17.0857 	EXP 	aperture: autoDraw = False
+17.0857 	EXP 	image_2: autoDraw = False
+17.0857 	EXP 	aperture: enabled = False
+17.0857 	EXP 	image: autoDraw = True
+17.0857 	EXP 	aperture: enabled = True
+17.0857 	EXP 	image_2: autoDraw = True
+18.0722 	EXP 	New trial (rep=4, index=0): None
+18.0880 	EXP 	image: autoDraw = False
+18.0880 	EXP 	aperture: enabled = False
+18.0880 	EXP 	image_2: autoDraw = False
+18.0880 	EXP 	image: autoDraw = False
+18.0880 	EXP 	aperture: autoDraw = False
+18.0880 	EXP 	image_2: autoDraw = False
+18.0880 	EXP 	aperture: enabled = False
+18.0880 	EXP 	image: autoDraw = True
+18.0880 	EXP 	aperture: enabled = True
+18.0880 	EXP 	image_2: autoDraw = True
+18.8559 	DATA 	Mouse: Left button down, pos=(539,532)
+18.9561 	DATA 	Mouse:  Left button up, pos=(539,532)
+19.0788 	EXP 	window1: mouseVisible = True

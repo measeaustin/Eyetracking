@@ -1,0 +1,60 @@
+11.1439 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x112a1cd50>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.1439 	EXP 	window1: recordFrameIntervals = False
+11.3098 	EXP 	window1: recordFrameIntervals = True
+11.4932 	EXP 	window1: recordFrameIntervals = False
+11.6705 	EXP 	Created BlankPic = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='BlankPic', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+11.6783 	EXP 	Created RewardImage = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./RewardPic.jpg', interpolate=True, mask=None, maskParams=None, name='RewardImage', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+11.6788 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+11.6792 	EXP 	New trial (rep=0, index=0): None
+11.6928 	EXP 	BlankPic: autoDraw = True
+12.7497 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+12.7600 	EXP 	BlankPic: autoDraw = False
+12.7600 	EXP 	BlankPic: autoDraw = False
+14.1363 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+14.1835 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0.01, 0.4), shape=UNKNOWN, size=0.9, units=u'norm', win=Window(...))
+16.1951 	EXP 	RewardImage: autoDraw = True
+17.1801 	EXP 	New trial (rep=1, index=0): None
+17.1957 	EXP 	RewardImage: autoDraw = False
+17.1957 	EXP 	RewardImage: autoDraw = False
+17.1957 	EXP 	BlankPic: autoDraw = True
+18.2047 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+18.2297 	EXP 	BlankPic: autoDraw = False
+18.2297 	EXP 	BlankPic: autoDraw = False
+19.5105 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+19.5318 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0.01, -0.4), shape=UNKNOWN, size=0.9, units=u'norm', win=Window(...))
+21.5480 	EXP 	unnamed Aperture: enabled = False
+21.5480 	EXP 	RewardImage: autoDraw = True
+22.5329 	EXP 	New trial (rep=2, index=0): None
+22.5502 	EXP 	RewardImage: autoDraw = False
+22.5502 	EXP 	RewardImage: autoDraw = False
+22.5502 	EXP 	BlankPic: autoDraw = True
+23.5568 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+23.5825 	EXP 	BlankPic: autoDraw = False
+23.5825 	EXP 	BlankPic: autoDraw = False
+24.7229 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+24.7347 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(-0.4, 0.01), shape=UNKNOWN, size=0.9, units=u'norm', win=Window(...))
+26.7508 	EXP 	unnamed Aperture: enabled = False
+26.7508 	EXP 	RewardImage: autoDraw = True
+27.7358 	EXP 	New trial (rep=3, index=0): None
+27.7513 	EXP 	RewardImage: autoDraw = False
+27.7513 	EXP 	RewardImage: autoDraw = False
+27.7513 	EXP 	BlankPic: autoDraw = True
+28.7596 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+28.7852 	EXP 	BlankPic: autoDraw = False
+28.7852 	EXP 	BlankPic: autoDraw = False
+30.6098 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+30.6377 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0.01, 0.4), shape=UNKNOWN, size=0.9, units=u'norm', win=Window(...))
+32.6553 	EXP 	unnamed Aperture: enabled = False
+32.6553 	EXP 	RewardImage: autoDraw = True
+33.6390 	EXP 	New trial (rep=4, index=0): None
+33.6544 	EXP 	RewardImage: autoDraw = False
+33.6544 	EXP 	RewardImage: autoDraw = False
+33.6544 	EXP 	BlankPic: autoDraw = True
+34.6619 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+34.6710 	EXP 	BlankPic: autoDraw = False
+34.6710 	EXP 	BlankPic: autoDraw = False
+36.3943 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+36.4074 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0.4, 0.01), shape=UNKNOWN, size=0.9, units=u'norm', win=Window(...))
+38.4230 	EXP 	unnamed Aperture: enabled = False
+38.4230 	EXP 	RewardImage: autoDraw = True
+38.8261 	DATA 	Keypress: escape

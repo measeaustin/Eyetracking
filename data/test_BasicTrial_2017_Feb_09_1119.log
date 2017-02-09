@@ -1,0 +1,40 @@
+13.8802 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1127d9c10>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.8803 	EXP 	window1: recordFrameIntervals = False
+14.0448 	EXP 	window1: recordFrameIntervals = True
+14.1328 	WARNING 	t of last frame was 20.37ms (=1/49)
+14.2952 	EXP 	window1: recordFrameIntervals = False
+14.4403 	EXP 	Created BlankPic = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./BlankPic.png', interpolate=True, mask=None, maskParams=None, name='BlankPic', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+14.4515 	EXP 	Created RewardImage = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='./RewardPic.jpg', interpolate=True, mask=None, maskParams=None, name='RewardImage', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+14.4521 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+14.4525 	EXP 	New trial (rep=0, index=0): None
+14.4794 	EXP 	BlankPic: autoDraw = True
+15.4753 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1. ,  1.2]), texRes=128, units=u'norm', win=Window(...))
+15.4960 	EXP 	BlankPic: autoDraw = False
+15.4960 	EXP 	BlankPic: autoDraw = False
+16.7931 	WARNING 	Monitor specification not found. Creating a temporary one...
+17.1168 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x113159c50>, name='window1', pos=[440, 200], screen=0, size=array([400, 400]), stereo=False, units='norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.2142 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 3.2,  2.4]), texRes=128, units='norm', win=Window(...))
+17.2342 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+17.2355 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+17.2368 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+17.2380 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+17.2395 	EXP 	unnamed Aperture: enabled = False
+17.2395 	EXP 	unnamed Aperture: enabled = False
+17.2395 	EXP 	unnamed Aperture: enabled = False
+17.2395 	EXP 	unnamed Aperture: enabled = False
+20.2417 	EXP 	New trial (rep=1, index=0): None
+21.2652 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 3.2,  2.4]), texRes=128, units='norm', win=Window(...))
+23.0852 	WARNING 	Monitor specification not found. Creating a temporary one...
+23.3987 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11306a910>, name='window1', pos=[440, 200], screen=0, size=array([400, 400]), stereo=False, units='norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.4230 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=PngImageFile(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 3.2,  2.4]), texRes=128, units='norm', win=Window(...))
+23.4254 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+23.4266 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+23.4278 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+23.4289 	EXP 	Created unnamed Aperture = Aperture(autoLog=True, inverted=False, nVert=UNKNOWN, name='unnamed Aperture', ori=1, pos=(0, 0), shape=UNKNOWN, size=0.9, units='norm', win=Window(...))
+23.4291 	EXP 	window1: mouseVisible = True
+23.6984 	EXP 	unnamed Aperture: enabled = False
+23.6984 	EXP 	unnamed Aperture: enabled = False
+23.6984 	EXP 	unnamed Aperture: enabled = False
+23.6984 	EXP 	unnamed Aperture: enabled = False
+26.1518 	DATA 	Keypress: space
+26.5888 	DATA 	Keypress: escape

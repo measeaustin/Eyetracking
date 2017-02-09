@@ -1,0 +1,30 @@
+15.1715 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x112425490>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.1715 	EXP 	window1: recordFrameIntervals = False
+15.3368 	EXP 	window1: recordFrameIntervals = True
+15.5031 	WARNING 	t of last frame was 34.58ms (=1/28)
+15.6704 	EXP 	window1: recordFrameIntervals = False
+15.7709 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=u'./BlankPage.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units=u'norm', win=Window(...))
+15.7815 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10c96d250>: vertices = array([[-0.25,  0.25],
+       [ 0.25,  0.25],
+       [ 0.25, -0.25],
+       [-0.25, -0.25]])
+15.7861 	EXP 	Created polygon = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+15.7865 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+15.7869 	EXP 	New trial (rep=0, index=0): None
+15.8195 	EXP 	image: autoDraw = True
+15.8195 	EXP 	polygon: autoDraw = True
+16.7857 	EXP 	New trial (rep=1, index=0): None
+16.8015 	EXP 	image: autoDraw = False
+16.8015 	EXP 	polygon: autoDraw = False
+16.8015 	EXP 	image: autoDraw = False
+16.8015 	EXP 	polygon: autoDraw = False
+16.8015 	EXP 	image: autoDraw = True
+16.8015 	EXP 	polygon: autoDraw = True
+17.7862 	EXP 	New trial (rep=2, index=0): None
+17.8021 	EXP 	image: autoDraw = False
+17.8021 	EXP 	polygon: autoDraw = False
+17.8021 	EXP 	image: autoDraw = False
+17.8021 	EXP 	polygon: autoDraw = False
+17.8021 	EXP 	image: autoDraw = True
+17.8021 	EXP 	polygon: autoDraw = True
+17.9711 	DATA 	Keypress: escape
