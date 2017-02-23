@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.84.2),
-    on Thu Feb  9 12:31:17 2017
+    on Fri Feb 10 13:11:31 2017
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -26,7 +26,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__)).decode(sys.getfilesystemen
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = u'BasicTrial'  # from the Builder filename that created this script
+expName = 'BasicTrial'  # from the Builder filename that created this script
 expInfo = {u'session': u'001', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
@@ -54,8 +54,8 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Setup the Window
 win = visual.Window(
     size=(1280, 800), fullscr=True, screen=0,
-    allowGUI=False, allowStencil=True,
-    monitor=u'testMonitor', color=[0,0,0], colorSpace='rgb',
+    allowGUI=False, allowStencil=False,
+    monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True,
     units='deg')
 # store frame rate of monitor if we can measure it
@@ -69,15 +69,11 @@ else:
 BlankWaitClock = core.Clock()
 BlankPic = visual.ImageStim(
     win=win, name='BlankPic',
-    image='./BlankPic.png', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.5),
+    image=u'./BlankPic.png', mask=None,
+    ori=0, pos=(0, 0), size=(16, 16),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-aperture = visual.Aperture(
-    win=win, name='aperture',
-    units='deg', size=2, pos=(0, 0))
-aperture.disable()  # disable until its actually used
 
 # Initialize components for Routine "Focal"
 FocalClock = core.Clock()
@@ -87,15 +83,17 @@ FocalClock = core.Clock()
 RandomStimuliClock = core.Clock()
 
 
+
 # Initialize components for Routine "Reward"
 RewardClock = core.Clock()
 RewardImage = visual.ImageStim(
     win=win, name='RewardImage',
-    image='./RewardPic.jpg', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.5),
+    image=u'./RewardPic.jpg', mask=None,
+    ori=0, pos=(0, 0), size=(16, 16),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
+
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -128,7 +126,7 @@ for thisTrial in trials:
     routineTimer.add(1.000000)
     # update component parameters for each repeat
     # keep track of which components have finished
-    BlankWaitComponents = [BlankPic, aperture]
+    BlankWaitComponents = [BlankPic]
     for thisComponent in BlankWaitComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -149,16 +147,6 @@ for thisTrial in trials:
         frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
         if BlankPic.status == STARTED and t >= frameRemains:
             BlankPic.setAutoDraw(False)
-        
-        # *aperture* updates
-        if t >= 0.0 and aperture.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            aperture.tStart = t
-            aperture.frameNStart = frameN  # exact frame index
-            aperture.enabled = True
-        frameRemains = 0.0 + 0.0- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if aperture.status == STARTED and t >= frameRemains:
-            aperture.enabled = False
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -181,7 +169,6 @@ for thisTrial in trials:
     for thisComponent in BlankWaitComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    aperture.enabled = False  # just in case it was left enabled
     
     # ------Prepare to start Routine "Focal"-------
     t = 0
@@ -249,36 +236,65 @@ for thisTrial in trials:
     import numpy as np
     import glob, os, random, copy, time
     
-    f1 = Image.open('./SolidRedPic.png', 'r')
-    visual.ImageStim(win, f1).draw()
-    win.flip()
-    #core.wait(2.0)
+    aperture1 = visual.Aperture(win, size=2, pos=(4,-4), ori=1, shape='circle')
+    #aperture1.enable = False
+    aperture2 = visual.Aperture(win, size=2, pos=(-4,4), ori=1, shape='circle')
+    #aperture2.enable = False
+    aperture3 = visual.Aperture(win, size=2, pos=(4,4), ori=1, shape='circle')
+    #aperture3.enable = False
+    aperture4 = visual.Aperture(win, size=2, pos=(-4,-4), ori=1, shape='circle')
+    #aperture4.enable = False
     
+    f1 = Image.open('./SolidRedPic.png', 'r')
+    f2 = Image.open('./BlankPic.png', 'r')
+    visual.ImageStim(win, f2).draw()
+    #win.flip()
     randomNumber = randint(0,4)
+    
     if randomNumber==0:
-        #f1 = Image.open('./EastPic.png', 'r')
-        #visual.ImageStim(win, f1).draw()
-        #win.flip()
-        aperture = visual.Aperture(win, size=0.9, pos=(0.01,-0.4), ori=1, shape='square')
-        core.wait(2.0)
+        aperture1.enable = True
+        visual.ImageStim(win, f1).draw()
+        win.flip()
+        #aperture1.enable = False
     elif randomNumber==1:
-        #f1 = Image.open('./WestPic.png', 'r')
-        #visual.ImageStim(win, f1).draw()
-        #win.flip()
-        aperture = visual.Aperture(win, size=0.9, pos=(0.01,0.4), ori=1, shape='square')
-        core.wait(2.0)
+        aperture2.enable = True
+        visual.ImageStim(win, f1).draw()
+        win.flip()
+        #aperture2.enable = False
     elif randomNumber==2:
-        #f1 = Image.open('./NorthPic.png', 'r')
-        #visual.ImageStim(win, f1).draw()
-        #win.flip()
-        aperture = visual.Aperture(win, size=0.9, pos=(0.4,0.01), ori=1, shape='square')
-        core.wait(2.0)
+        aperture3.enable = True
+        visual.ImageStim(win, f1).draw()
+        win.flip()
+        #aperture3.enable = False
     else:
-        #f1 = Image.open('./SouthPic.png', 'r')
-        #visual.ImageStim(win, f1).draw()
-        #win.flip()
-        aperture = visual.Aperture(win, size=0.9, pos=(-0.4,0.01), ori=1, shape='square')
-        core.wait(2.0)
+        aperture4.enable = True
+        visual.ImageStim(win, f1).draw()
+        win.flip()
+        #aperture4.enable = False
+    event.waitKeys()
+    
+    from psychopy import visual, event
+    
+    # Need to allowStencil=True for a window with an Aperture:
+    instr = visual.TextStim(win, text="Any key to quit", pos=(0, -.7))
+    gabor1 = visual.GratingStim(win, mask='circle', sf=4, size=1.2, color=[0.5, -0.5, 1])
+    gabor2 = visual.GratingStim(win, mask='circle', sf=4, size=2.2, color=[-0.5, -0.5, -1])
+    vertices = [(-0.02, -0.0), (-.8, .2), (0, .6), (.1, 0.06), (.8, .3), (.6, -.4)]
+    
+    # `sizes in Aperture refers to the diameter when shape='circle';
+    # vertices or other shapes are scaled accordingly
+    aperture = visual.Aperture(win, size=0.9, pos=(0.01,-0.4), ori=1, shape='square')  # try shape='square'
+    aperture.enabled = False  # enabled by default when created
+    gabor1.draw()
+    instr.draw()
+    
+    # drawing will now only be done within the aperture shape:
+    aperture.enabled = True
+    gabor2.draw()
+    
+    win.flip()
+    event.waitKeys()
+    # The contents of this file are in the public domain.
     # keep track of which components have finished
     RandomStimuliComponents = []
     for thisComponent in RandomStimuliComponents:
@@ -291,6 +307,7 @@ for thisTrial in trials:
         t = RandomStimuliClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+        
         
         
         # check if all components have finished
@@ -315,6 +332,7 @@ for thisTrial in trials:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     
+    
     # the Routine "RandomStimuli" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
@@ -325,6 +343,10 @@ for thisTrial in trials:
     continueRoutine = True
     routineTimer.add(1.000000)
     # update component parameters for each repeat
+    aperture1.enable = False
+    aperture2.enable = False
+    aperture3.enable = False
+    aperture4.enable = False
     # keep track of which components have finished
     RewardComponents = [RewardImage]
     for thisComponent in RewardComponents:
@@ -348,6 +370,7 @@ for thisTrial in trials:
         if RewardImage.status == STARTED and t >= frameRemains:
             RewardImage.setAutoDraw(False)
         
+        
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
@@ -369,9 +392,12 @@ for thisTrial in trials:
     for thisComponent in RewardComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    
     thisExp.nextEntry()
     
 # completed 5 repeats of 'trials'
+
+
 
 
 

@@ -29,7 +29,6 @@
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="flipVert" updates="constant" val="False" valType="bool"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="name" updates="None" val="BlankPic" valType="code"/>
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
@@ -38,82 +37,15 @@
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="image" updates="constant" val="./BlankPic.png" valType="str"/>
-        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
-      </ImageComponent>
-    </Routine>
-    <Routine name="trial">
-      <ImageComponent name="image">
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
-        <Param name="name" updates="None" val="image" valType="code"/>
-        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="mask" updates="constant" val="None" valType="str"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
-        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="image" updates="constant" val="./BlankPic.png" valType="str"/>
-        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
-      </ImageComponent>
-      <ImageComponent name="image_2">
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
-        <Param name="name" updates="None" val="image_2" valType="code"/>
-        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="mask" updates="constant" val="None" valType="str"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
-        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="image" updates="constant" val="./FocalPic.png" valType="str"/>
-        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
-      </ImageComponent>
-      <ImageComponent name="image_3">
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
-        <Param name="name" updates="None" val="image_3" valType="code"/>
-        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="mask" updates="constant" val="None" valType="str"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
-        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="image" updates="constant" val="./EastPic.png" valType="str"/>
-        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+        <Param name="size" updates="constant" val="(16, 16)" valType="code"/>
       </ImageComponent>
     </Routine>
     <Routine name="Reward">
@@ -121,7 +53,6 @@
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="flipVert" updates="constant" val="False" valType="bool"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="name" updates="None" val="RewardImage" valType="code"/>
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
@@ -130,31 +61,48 @@
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="image" updates="constant" val="./RewardPic.jpg" valType="str"/>
-        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+        <Param name="size" updates="constant" val="(16, 16)" valType="code"/>
       </ImageComponent>
+      <CodeComponent name="code_2">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="aperture1.enable = False&amp;#10;aperture2.enable = False&amp;#10;aperture3.enable = False&amp;#10;aperture4.enable = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
     </Routine>
     <Routine name="Focal">
       <CodeComponent name="code">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="from psychopy import visual, core&amp;#10;from PIL import Image&amp;#10;import numpy as np&amp;#10;import glob, os, random, copy, time&amp;#10;&amp;#10;randomTime = random.uniform(1,2)&amp;#10;f1 = Image.open('./FocalPic.png', 'r')&amp;#10;visual.ImageStim(win, f1).draw()&amp;#10;win.flip()&amp;#10;core.wait(randomTime)" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
     </Routine>
     <Routine name="RandomStimuli">
       <CodeComponent name="RandomPicControl">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="RandomPicControl" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="from psychopy import visual, core&amp;#10;from PIL import Image&amp;#10;import numpy as np&amp;#10;import glob, os, random, copy, time&amp;#10;&amp;#10;f1 = Image.open('./SolidRedPic.png', 'r')&amp;#10;visual.ImageStim(win, f1).draw()&amp;#10;win.flip()&amp;#10;#core.wait(2.0)&amp;#10;&amp;#10;randomNumber = randint(0,4)&amp;#10;if randomNumber==0:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.01,-0.4), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;elif randomNumber==1:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.01,0.4), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;elif randomNumber==2:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(0.4,0.01), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;else:&amp;#10;    aperture = visual.Aperture(win, size=0.9, pos=(-0.4,0.01), ori=1, shape='square')&amp;#10;    core.wait(2.0)&amp;#10;aperture.enable = False" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="from psychopy import visual, core&amp;#10;from PIL import Image&amp;#10;import numpy as np&amp;#10;import glob, os, random, copy, time&amp;#10;&amp;#10;#aperture1.enable = False&amp;#10;#aperture2 = visual.Aperture(win, size=2, pos=(-4,4), ori=1, shape='circle')&amp;#10;#aperture2.enable = False&amp;#10;#aperture3 = visual.Aperture(win, size=2, pos=(4,4), ori=1, shape='circle')&amp;#10;#aperture3.enable = False&amp;#10;#aperture4 = visual.Aperture(win, size=2, pos=(-4,-4), ori=1, shape='circle')&amp;#10;#aperture4.enable = False&amp;#10;&amp;#10;f1 = Image.open('./SolidRedPic.png', 'r')&amp;#10;f2 = Image.open('./BlankPic.png', 'r')&amp;#10;aperture1 = visual.Aperture(win, size=2, pos=(4,-4), ori=1, shape='circle')&amp;#10;aperture1.enable = False&amp;#10;visual.ImageStim(win, f2).draw()&amp;#10;#win.flip()&amp;#10;randomNumber = randint(0,4)&amp;#10;&amp;#10;aperture1.enable = True&amp;#10;visual.ImageStim(win, f1).draw()&amp;#10;&amp;#10;win.flip()&amp;#10;event.waitKeys()&amp;#10;#if randomNumber==0:&amp;#10;#    aperture1.enable = True&amp;#10;#    visual.ImageStim(win, f1).draw()&amp;#10;#    win.flip()&amp;#10;    #aperture1.enable = False&amp;#10;#elif randomNumber==1:&amp;#10;#    aperture2.enable = True&amp;#10;#    visual.ImageStim(win, f1).draw()&amp;#10;#    win.flip()&amp;#10;    #aperture2.enable = False&amp;#10;#elif randomNumber==2:&amp;#10;#    aperture3.enable = True&amp;#10;#    visual.ImageStim(win, f1).draw()&amp;#10;#    win.flip()&amp;#10;    #aperture3.enable = False&amp;#10;#else:&amp;#10;#    aperture4.enable = True&amp;#10;#    visual.ImageStim(win, f1).draw()&amp;#10;#    win.flip()&amp;#10;    #aperture4.enable = False&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+      <CodeComponent name="code_3">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_3" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="from psychopy import visual, event&amp;#10;&amp;#10;# Need to allowStencil=True for a window with an Aperture:&amp;#10;instr = visual.TextStim(win, text=&quot;Any key to quit&quot;, pos=(0, -.7))&amp;#10;gabor1 = Image.open('./SolidRedPic.png', 'r')&amp;#10;gabor2 = Image.open('./BlankPic.png', 'r')&amp;#10;&amp;#10;# `sizes in Aperture refers to the diameter when shape='circle';&amp;#10;# vertices or other shapes are scaled accordingly&amp;#10;aperture = visual.Aperture(win, size=0.9, pos=(2,-2), ori=1, shape='circle')  # try shape='square'&amp;#10;aperture.enabled = False  # enabled by default when created&amp;#10;visual.ImageStim(win, gabor2).draw()&amp;#10;instr.draw()&amp;#10;&amp;#10;# drawing will now only be done within the aperture shape:&amp;#10;aperture.enabled = True&amp;#10;visual.ImageStim(win, gabor1).draw()&amp;#10;&amp;#10;win.flip()&amp;#10;event.waitKeys()&amp;#10;# The contents of this file are in the public domain." valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
