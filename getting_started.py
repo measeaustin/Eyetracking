@@ -48,7 +48,7 @@ eyetracker=io.devices.tracker
 # hardware being used at:
 # http://www.isolver-solutions.com/iohubdocs/iohub/api_and_manual/device_details/eyetracker.html#eye-tracking-hardware-implementations
 #
-eyetracker.runSetupProcedure()
+#eyetracker.runSetupProcedure()
 
 # Start Recording Eye Data
 #
@@ -60,12 +60,12 @@ io.clearEvents('all')
 
 # While the space key is not pressed
 #
-print "Starting Data Collection. Press SPACE key to stop.."
-while not [event for event in keyboard.getEvents(event_type_id=EventConstants.KEYBOARD_PRESS) if event.key == ' ']:
+#print "Starting Data Collection. Press SPACE key to stop.."
+#while not [event for event in keyboard.getEvents(event_type_id=EventConstants.KEYBOARD_PRESS) if event.key == ' ']:
     # wait 1/4 second
     #
-    io.wait(0.25)
-print "Stopped Data Collection." 
+#    io.wait(0.25)
+#print "Stopped Data Collection." 
 
 # Space key was pressed, so stop recording from the eye tracker
 # and disconnect it from the iohub.

@@ -14,6 +14,8 @@ from __future__ import absolute_import, division
 from psychopy import locale_setup, gui, visual, core, data, event, logging, sound
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
+from psychopy.iohub import EventConstants,ioHubConnection,load,Loader
+from psychopy.data import getDateStr
 from psychopy.data import *
 from psychopy.iohub import *
 import numpy as np  # whole numpy lib is available, prepend 'np.'
@@ -27,6 +29,44 @@ import pylink # Still waiting on account activation, which is weird that I need 
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__)).decode(sys.getfilesystemencoding())
 os.chdir(_thisDir)
+
+# Load the specified iohub configuration file
+# converting it to a python dict.
+#
+io_config=load(file('./SRR_eyelink_std.yaml','r'), Loader=Loader)
+
+# Add / Update the session code to be unique. Here we use the psychopy
+# getDateStr() function for session code generation
+#
+session_info=io_config.get('data_store').get('session_info')
+session_info.update(code="S_%s"%(getDateStr()))
+
+# Create an ioHubConnection instance, which starts the ioHubProcess, and
+# informs it of the requested devices and their configurations.
+#        
+io=ioHubConnection(io_config)
+
+keyboard=io.devices.keyboard
+eyetracker=io.devices.tracker
+
+# Start by running the eye tracker default setup procedure.
+# The details of the setup procedure (calibration, validation, etc)
+# are unique to each implementation of the Common Eye Tracker Interface.
+# All have the common end goal of calibrating the eye tracking system
+# prior to data collection.
+#
+# Please see the eye tracker interface implementation details for the
+# hardware being used at:
+# http://www.isolver-solutions.com/iohubdocs/iohub/api_and_manual/device_details/eyetracker.html#eye-tracking-hardware-implementations
+#
+eyetracker.runSetupProcedure()
+
+# Start Recording Eye Data
+#
+eyetracker.setRecordingState(True)
+
+# While the space key is not pressed
+# 
 
 # Store info about the experiment session
 expName = 'BasicTrial'  # from the Builder filename that created this script
@@ -376,7 +416,23 @@ for thisTrial in trials:
 thisExp.saveAsWideText(filename+'.csv')
 thisExp.saveAsPickle(filename)
 logging.flush()
+
+# Clear any events already in the iohub on-line event buffers
+#
+io.clearEvents('all')
+
+# Space key was pressed, so stop recording from the eye tracker
+# and disconnect it from the iohub.
+#
+eyetracker.setRecordingState(False)
+eyetracker.setConnectionState(False)
+
+# quit the ioHub process
+#
+io.quit()
+
 # make sure everything is closed down
 thisExp.abort()  # or data files will save again on exit
 win.close()
 core.quit()
+
