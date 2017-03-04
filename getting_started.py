@@ -48,7 +48,7 @@ eyetracker=io.devices.tracker
 # hardware being used at:
 # http://www.isolver-solutions.com/iohubdocs/iohub/api_and_manual/device_details/eyetracker.html#eye-tracking-hardware-implementations
 #
-#eyetracker.runSetupProcedure()
+eyetracker.runSetupProcedure()
 
 # Start Recording Eye Data
 #
