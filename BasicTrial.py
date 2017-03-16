@@ -49,7 +49,7 @@ io=ioHubConnection(io_config)
 keyboard=io.devices.keyboard
 eyetracker=io.devices.tracker
 
-print(io.isConnected())
+# print(io.getProcessAffinity())
 # Start by running the eye tracker default setup procedure.
 # The details of the setup procedure (calibration, validation, etc)
 # are unique to each implementation of the Common Eye Tracker Interface.
